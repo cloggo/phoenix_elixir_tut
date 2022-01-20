@@ -36,4 +36,4 @@ stop:
 	docker-compose down
 
 clean:
-	$(RM) -rf $(APP_NAME)
+	$(RM) -rf $(APP_NAME) pgdata
