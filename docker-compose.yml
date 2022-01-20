@@ -3,9 +3,9 @@ version: '3.8'
 services:
   api:
     image: bitwalker/alpine-elixir-phoenix:latest
-    command: mix php.server
+    command: mix phx.server
     ports:
-      - "8001:4000"
+      - 8001:4000
     depends_on:
       - db
     volumes:
