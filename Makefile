@@ -25,7 +25,7 @@ init:
 	$(DOCKER_CMD) mix archive.install --force hex phx_new
 	$(DOCKER_CMD) mix phx.new --install $(APP_NAME)
 	$(DOCKER_CMD) mix local.rebar --force
-	sed -i.exs 's|http: .*|http: [ip: {0, 0, 0, 0}, port: 4000]|g' $(APP_NAME)/config/dev.exs
+	sed -i '' 's|http: .*|http: [ip: {0, 0, 0, 0}, port: 4000],|g' $(APP_NAME)/config/dev.exs
 	@echo "$$ECTO_DB_CONFIG" >> $(APP_NAME)/config/config.exs
 	$(DOCKER_COMPOSE_CMD) sh -c "mix ecto.create"
 
