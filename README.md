@@ -3,7 +3,7 @@
 ## Create a Project
 
 ```sh
-make init APP_NAME==[awesome_project_name]   # default is hello
+make init APP_NAME=[awesome_project_name]   # default is hello
 ```
 
 ## Run the Development Server
