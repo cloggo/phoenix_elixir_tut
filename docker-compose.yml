@@ -10,7 +10,7 @@ services:
       - db
     volumes:
       - ./mix:/opt/mix
-      - ./hello:/opt/app
+      - ./${APP_NAME}:/opt/app
 
   db:
     image: postgres:14

@@ -17,8 +17,9 @@ config :$(APP_NAME), $(REPO_NAME).Repo,
 endef
 
 export ECTO_DB_CONFIG
+export APP_NAME
 
-.PHONY: build init
+.PHONY: init run stop clean
 
 init:
 	$(DOCKER_CMD) mix local.hex --force
