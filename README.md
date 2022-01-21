@@ -9,6 +9,7 @@ make init APP_NAME=[awesome_project_name]   # default is hello
 ## Run the Development Server
 
 * live reload works
+* http://localhost:8001
 
 ```sh
 make run APP_NAME=[awesome_project_name]
