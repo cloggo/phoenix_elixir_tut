@@ -11,17 +11,17 @@ make init APP_NAME==[awesome_project_name]   # default is hello
 * live reload works
 
 ```sh
-make run APP_NAME==[awesome_project_name]
+make run APP_NAME=[awesome_project_name]
 ```
 
 ## Stop the Development Server
 
 ```sh
-make stop APP_NAME==[awesome_project_name]
+make stop APP_NAME=[awesome_project_name]
 ```
 
 ## Remove the Project
 
 ```sh
-make clean APP_NAME==[awesome_project_name]
+make clean APP_NAME=[awesome_project_name]
 ```
