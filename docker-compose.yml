@@ -9,7 +9,6 @@ services:
     depends_on:
       - db
     volumes:
-      - ./mix:/opt/mix
       - ./${APP_NAME}:/opt/app
 
   db:
