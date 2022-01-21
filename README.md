@@ -3,7 +3,7 @@
 ## Create a Project
 
 ```sh
-make init [awesome_project_name]   # default is hello
+make init APP_NAME==[awesome_project_name]   # default is hello
 ```
 
 ## Run the Development Server
@@ -11,17 +11,17 @@ make init [awesome_project_name]   # default is hello
 * live reload works
 
 ```sh
-make run [awesome_project_name]
+make run APP_NAME==[awesome_project_name]
 ```
 
 ## Stop the Development Server
 
 ```sh
-make stop [awesome_project_name]
+make stop APP_NAME==[awesome_project_name]
 ```
 
 ## Remove the Project
 
 ```sh
-make clean [awesome_project_name]
+make clean APP_NAME==[awesome_project_name]
 ```
